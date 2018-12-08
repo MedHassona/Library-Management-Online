@@ -1,0 +1,92 @@
+.cherche-body{
+	background-color: #d2d2d2;
+}
+
+.ch-mid-div{
+	margin-top: 40px;
+	width: 1000px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.15);
+	margin: 0 auto;
+	margin-top: 4%;
+	padding-top: 40px;
+	padding-left: 50px;
+	border-radius: 15px;
+	color: white;
+	font-weight: bolder;
+}
+h2{
+	padding-top: 40px;
+	margin-top: 20px;
+	color: #e67e22;
+}
+
+table{
+	border:1px solid red;
+	text-align:center;
+}
+
+table th{
+	background-color: #e67e22;
+	padding: 3 3 3 3;
+	font-size: 25px;
+}
+
+table tr td{
+	padding: 3 3 3 3;
+	font-size: 20px;
+}
+
+
+/*  1ere pages de chercher par (id livre , auteur, rayon) */
+.id-div{
+	margin-top: 40px;
+	width: 400px;
+	height: 60px;
+	background-color: rgba(0,0,0,0.1);
+	margin: 0 auto;
+	margin-top: 3%;
+	padding-top: 8px;
+	padding-left: 30px;
+	border-radius: 15px;
+	color: white;
+	font-weight: bolder;
+}
+
+
+.id-div input[type="text"]{
+	width: 80px;
+	height: 20px;
+	border: 0.4;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+
+.id-div input[type="submit"]{
+	width: 80px;
+	height: 27px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #cde4a1;
+	font-weight: bold;
+	padding-left: 3px;
+	margin-left: 20%;
+}
+
+.id-div input[type="submit"]:hover{
+	background-color: #e67e22;
+}
+
+/* affihage du cherche par Id */
+
+.affichage{	margin-top: 40px;
+	width: 400px;
+	margin-top: 5%;
+	margin-left: 33%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+

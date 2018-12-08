@@ -1,0 +1,205 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: tahoma;
+}
+
+.hero{
+	position: absolute;
+	width: 740px;
+	top: 43%;
+	left: 25%;
+	transform: translate(-50%,-50);
+}
+
+.header-bib{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(../img/books.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+h1{
+	color: white;
+}
+
+.logo img{
+	height: 90px;
+	float: left;
+	margin-top: 40px;
+}
+
+
+.btn{
+	border: 1.6px solid #e67e22;
+	padding: 10px 10px;
+	color: #e67e22;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 15px;
+	font-size: 20px;
+
+}
+
+.bouton{
+	margin-top: 40px;
+}
+
+.adm:hover{
+	background-color: #f88b60;
+
+	color: white;
+	transition: all 0.7s ease-in;
+}
+
+.cli:hover{
+	background-color: #f88b60;
+	color: white;
+	transition: all 0.5s ease-in;
+}
+
+
+
+/*connecter.php */
+
+
+
+.connect{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../img/bib.jpg);
+	background-size: cover;
+}
+
+.vid{
+	width: 270px;
+	height: 245px;
+	background-color: rgba(0,0,0,0.5);
+	margin: 0 auto;
+	margin-top: 15%;
+	padding-top: 10px;
+	padding-left: 50px;
+	border-radius: 15px;
+	color: white;
+	font-weight: bolder;
+	box-shadow: inset 4px 4px rgba(0,0,0,0.5);
+
+}
+
+.vid input[type="text"]{
+	width: 200px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.vid input[type="password"]{
+	width: 200px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+	
+}
+
+.vid input[type="submit"]{
+	width: 100px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #cde4a1;
+	font-weight: bold;
+	
+}
+
+.vid input[type="submit"]:hover{
+	background-color: #c0eb6e;	
+}
+
+.ins{
+	text-decoration: none;
+	color: #f8cd79;
+}
+
+.ins:hover{
+	color: #f8a80f;
+}
+
+
+
+/* Inscrire */
+
+
+
+
+.div-inscrir{
+	width: 270px;
+	height: 420px;
+	background-color: rgba(0,0,0,0.7);
+	margin: 0 auto;
+	margin-top: 8%;
+	padding-top: 10px;
+	padding-left: 50px;
+	border-radius: 15px;
+	color: white;
+	font-weight: bolder;
+	box-shadow: inset 6px 6px rgba(0,0,0,0.8);
+
+}
+
+.div-inscrir input[type="text"]{
+	width: 200px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.div-inscrir input[type="password"]{
+	width: 200px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+	
+}
+
+.div-inscrir input[type="submit"]{
+	width: 100px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #cde4a1;
+	font-weight: bold;
+	
+}
+
+.div-inscrir input[type="reset"]{
+	width: 100px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #cde4a1;
+	font-weight: bold;
+	
+}
+
+.div-inscrir input[type="submit"]:hover{
+	background-color: #b5f737;	
+}
+
+.div-inscrir input[type="reset"]:hover{
+	background-color: #b5f737;	
+}

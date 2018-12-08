@@ -1,0 +1,93 @@
+.users-body{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(../img/bib.jpg) ;
+	background-size: cover;
+}
+
+.up-div{
+	width: 1100px;
+	height: 300px;
+	background-image: url('../img/welcome.jpg');
+	margin-left: 4.5%; 
+	margin-top: 3%;
+	border-radius: 15px;
+}
+
+.logout{
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.dec{
+	border: 1.6px solid #e67e22;
+	padding: 10px 10px;
+	color: #e67e22;
+	text-decoration: none;
+	border-radius: 12px;
+	font-size: 20px;
+	float: left;
+}
+
+.dec:hover{
+	background-color: #f6bd8d;
+	color: white;
+	border: #f6bd8d;
+}
+
+
+.mid-div{
+	margin-top: 40px;
+	width: 1000px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.8);
+	margin: 0 auto;
+	margin-top: 4%;
+	padding-top: 40px;
+	padding-left: 50px;
+	border-radius: 15px;
+	color: white;
+	font-weight: bolder;
+}
+
+.btn{
+	border: 1.6px solid #e67e22;
+	padding: 15px 30px;
+	color: #fa7f17;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-left: 35px;
+	font-size: 22px;
+}
+
+.cher:hover{
+	background-color: #d0f68d;
+	color: #31322e;
+	border: 1.6px solid #d0f68d;
+}
+
+.liv:hover{
+	background-color: #d0f68d;
+	color: #31322e;
+	border: 1.6px solid #d0f68d;
+}
+
+.mes:hover{
+	background-color: #d0f68d;
+	color: #31322e;
+	border: 1.6px solid #d0f68d;
+}
+
+.com:hover{
+	background-color: #d0f68d;
+	color: #31322e;
+	border: 1.6px solid #d0f68d;
+}
+
+.noti:hover{
+	background-color: #d0f68d;
+	color: #31322e;
+	border: 1.6px solid #d0f68d;
+}
+
+
+
